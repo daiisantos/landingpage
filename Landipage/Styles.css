@@ -1,0 +1,124 @@
+body{
+  margin: 0px;
+  background-color: #ffd4dd;
+  color: #2e1e1f;
+  padding: 10px;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+form{
+display: flex;
+justify-content: center;
+
+flex-direction: column;
+width: 100%;
+
+}
+input {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 0 2px #ddd;
+  font-size: 1rem;
+  background-color: #fff6f7;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #b34b68;
+}
+
+button {
+  padding: 0.8rem;
+  background-color: #b34b68;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #923955;
+}
+h1{
+  color: #f14078;
+  font-style: normal;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+  color: #f14078;
+  font-style: normal;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+  color:#6f1532;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+  color: #f14078;
+  font-family: monospace;
+}
+
+
+  img {
+     margin-top: 10px;
+  width: 30%;
+}
+
+#imagemPrincipal{
+  display: flex;
+  justify-content: center;
+}
+
+.contato{
+  background-color: #ac5570;
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+h1::after {
+  content: "💄"
+}
+a{
+  color: #6f1532;
+}
+nav {
+  background-color: #c1657e;
+  padding: 10px 20px;
+  display: flex;
+  align-items:flex-start;
+}
+
+.logo {
+  width: 110px;
+
+}
+#git a{
+  color: #ffa9ca;
+}
+ #daiane:hover{
+  color:rgb(39, 255, 237)
+}
+ #debora:hover{
+  color: #b57cf7;
+}
+
+#daiane{
+  text-decoration: none;
+}
+#debora{
+    text-decoration: none;
+
+}
